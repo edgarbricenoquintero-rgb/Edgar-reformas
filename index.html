@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Edgar Reformas: reformas, pintura, electricidad, fontanería y alicatado en Madrid y alrededores. Solicita presupuesto.">
+  <title>Edgar Reformas | Reformas en Madrid</title>
+  <style>
+    :root{--dark:#111827;--accent:#f59e0b;--light:#f8fafc;--muted:#64748b;--white:#fff}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:var(--light);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1100px,92%);margin:auto}
+    header{background:rgba(17,24,39,.97);color:#fff;position:sticky;top:0;z-index:10}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+    .logo{font-size:1.45rem;font-weight:800}.logo span{color:var(--accent)}
+    .navlinks{display:flex;gap:24px;font-size:.95rem}
+    .navlinks a:hover{color:var(--accent)}
+    .hero{background:linear-gradient(135deg,#111827 0%,#263244 100%);color:#fff;padding:90px 0 85px}
+    .hero .tag{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.85rem}
+    h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.05;margin:14px 0 22px;max-width:850px}
+    .hero p{font-size:1.2rem;max-width:680px;color:#dbe3ed;margin-bottom:30px}
+    .buttons{display:flex;flex-wrap:wrap;gap:12px}
+    .btn{display:inline-block;padding:14px 22px;border-radius:8px;font-weight:700}
+    .primary{background:var(--accent);color:#111827}.secondary{border:1px solid #94a3b8;color:#fff}
+    section{padding:72px 0}.section-head{text-align:center;margin-bottom:38px}
+    .section-head h2{font-size:2.2rem;margin-bottom:8px}.section-head p{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fff;border-radius:14px;padding:28px;box-shadow:0 8px 25px rgba(15,23,42,.07)}
+    .icon{font-size:2rem;margin-bottom:12px}.card h3{margin-bottom:8px}.card p{color:var(--muted)}
+    .about{background:#fff}.aboutbox{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+    .aboutbox h2{font-size:2.3rem;margin-bottom:15px}.aboutbox p{color:var(--muted);margin-bottom:15px}
+    .features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+    .feature{font-weight:700}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .photo{height:220px;border-radius:12px;background:linear-gradient(135deg,#e2e8f0,#cbd5e1);display:flex;align-items:center;justify-content:center;color:#64748b;text-align:center;padding:20px}
+    .contact{background:#111827;color:#fff}.contactbox{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+    .contact p{color:#cbd5e1;margin:10px 0 25px}
+    .contactinfo{font-size:1.15rem;display:grid;gap:14px}
+    footer{background:#0b1120;color:#94a3b8;text-align:center;padding:25px;font-size:.9rem}
+    .whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;color:#fff;padding:14px 18px;border-radius:50px;font-weight:800;box-shadow:0 8px 25px rgba(0,0,0,.25);z-index:20}
+    @media(max-width:800px){
+      .navlinks{display:none}.hero{padding:65px 0}.grid,.gallery,.aboutbox,.contactbox{grid-template-columns:1fr}
+      section{padding:55px 0}.photo{height:180px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">EDGAR <span>REFORMAS</span></div>
+      <div class="navlinks">
+        <a href="#servicios">Servicios</a><a href="#trabajos">Trabajos</a><a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="tag">Madrid y alrededores</div>
+    <h1>Reformas hechas con profesionalidad y cuidado.</h1>
+    <p>Reformas y construcción, pintura, electricidad, fontanería y alicatado. Cuéntame tu proyecto y buscamos la mejor solución.</p>
+    <div class="buttons">
+      <a class="btn primary" href="https://wa.me/34643434518?text=Hola%20Edgar%2C%20quiero%20pedir%20un%20presupuesto." target="_blank">💬 Pedir presupuesto</a>
+      <a class="btn secondary" href="tel:+34643434518">📞 643 434 518</a>
+    </div>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="container">
+    <div class="section-head"><h2>Mis servicios</h2><p>Soluciones para renovar y mejorar tu vivienda o local.</p></div>
+    <div class="grid">
+      <article class="card"><div class="icon">🔨</div><h3>Reformas y construcción</h3><p>Reformas integrales y parciales, reparaciones y trabajos de construcción.</p></article>
+      <article class="card"><div class="icon">🎨</div><h3>Pintura</h3><p>Renovación de paredes, techos y espacios interiores y exteriores.</p></article>
+      <article class="card"><div class="icon">⚡</div><h3>Electricidad</h3><p>Instalaciones, reparaciones y mejoras eléctricas.</p></article>
+      <article class="card"><div class="icon">🚰</div><h3>Fontanería</h3><p>Reparaciones, instalaciones y mantenimiento de fontanería.</p></article>
+      <article class="card"><div class="icon">🧱</div><h3>Alicatado</h3><p>Colocación y renovación de azulejos en baños, cocinas y otros espacios.</p></article>
+      <article class="card"><div class="icon">🛠️</div><h3>Reparaciones</h3><p>Trabajos de mantenimiento y mejoras para dejar cada espacio a punto.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container aboutbox">
+    <div>
+      <h2>Edgar Reformas</h2>
+      <p>Trabajo en Madrid y alrededores ofreciendo un servicio cercano y profesional, adaptado a las necesidades de cada cliente.</p>
+      <p>La prioridad es hacer un trabajo cuidado, explicar las opciones y buscar un resultado que cumpla con lo que necesitas.</p>
+      <div class="features"><div class="feature">✓ Atención personalizada</div><div class="feature">✓ Presupuestos</div><div class="feature">✓ Trabajo cuidado</div><div class="feature">✓ Madrid y alrededores</div></div>
+    </div>
+    <div class="card"><h3>¿Tienes un proyecto?</h3><p>Envíame un mensaje por WhatsApp explicando qué necesitas. Si quieres, puedes adjuntar fotografías para valorar el trabajo.</p><br>
+      <a class="btn primary" href="https://wa.me/34643434518?text=Hola%20Edgar%2C%20te%20contacto%20desde%20la%20web." target="_blank">Hablar por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="trabajos">
+  <div class="container">
+    <div class="section-head"><h2>Mis trabajos</h2><p>Aquí mostraremos tus mejores proyectos.</p></div>
+    <div class="gallery">
+      <div class="photo">📷<br>Foto de un trabajo</div>
+      <div class="photo">📷<br>Foto de un antes y después</div>
+      <div class="photo">📷<br>Foto de un proyecto terminado</div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="contact">
+  <div class="container contactbox">
+    <div><h2>¿Necesitas una reforma?</h2><p>Contacta conmigo y cuéntame qué necesitas. Podemos hablar de tu proyecto y preparar un presupuesto.</p>
+      <div class="buttons"><a class="btn primary" href="https://wa.me/34643434518?text=Hola%20Edgar%2C%20quiero%20pedir%20un%20presupuesto." target="_blank">💬 WhatsApp</a><a class="btn secondary" href="tel:+34643434518">📞 Llamar</a></div>
+    </div>
+    <div class="contactinfo"><div>📞 <a href="tel:+34643434518">643 434 518</a></div><div>📍 Madrid y alrededores</div><div>💬 WhatsApp disponible</div></div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Edgar Reformas · Madrid y alrededores</footer>
+<a class="whatsapp" href="https://wa.me/34643434518?text=Hola%20Edgar%2C%20quiero%20pedir%20un%20presupuesto." target="_blank">WhatsApp</a>
+</body>
+</html>
